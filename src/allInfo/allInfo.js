@@ -1,9 +1,62 @@
 export const allProjects = [
-
-]
+    {
+        id: 1,
+        title: "",
+        description:
+        "",
+        gitHub: "",
+        live: "",
+        image: ""
+    },
+    {
+        id: 2,
+        title: "",
+        description:
+        "",
+        gitHub: "",
+        live: "",
+        image: ""
+    },
+    {
+        id: 3,
+        title: "",
+        description:
+        "",
+        gitHub: "",
+        live: "",
+        image: ""
+    },
+    {
+        id: 4,
+        title: "",
+        description:
+        "",
+        gitHub: "",
+        live: "",
+        image: ""
+    },
+    {
+        id: 5,
+        title: "",
+        description:
+        "",
+        gitHub: "",
+        live: "",
+        image: ""
+    },
+    {
+        id: 6,
+        title: "",
+        description:
+        "",
+        gitHub: "",
+        live: "",
+        image: ""
+    }
+];
 
 export const contactInfo = {
-    id: 8,
+    id: 7,
     name: "Allison Wagner",
     title: "Software Developer",
     description:
@@ -30,4 +83,4 @@ export const contactInfo = {
       "Agile Processes",
       "OOP/TDD"
     ]
-  };
+};
