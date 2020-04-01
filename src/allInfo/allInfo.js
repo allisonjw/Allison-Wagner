@@ -1,11 +1,11 @@
 export const allProjects = [
     {
         id: 1,
-        title: "",
+        title: "Palette Picker",
         description:
         "",
-        gitHub: "",
-        live: "",
+        gitHub: "https://github.com/allisonjw/palette-picker-FE",
+        live: "https://fe-palette-of-colors-picker.herokuapp.com/",
         image: ""
     },
     {
