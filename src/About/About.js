@@ -24,7 +24,10 @@ export const About = () => {
             <h3 className="about_h3">{title}</h3>
             <h3 className="about_h3">{description}</h3>
             <h3 className="about_h3">{image}</h3>
-            <aside className="aside_skills">{skillsList()}</aside>
+            <aside className="aside_skills">
+                <h3 className="about_h3">Skills:</h3>
+                {skillsList()}
+            </aside>
         </section>
     )
 }
