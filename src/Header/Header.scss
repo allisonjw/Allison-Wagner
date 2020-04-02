@@ -2,7 +2,7 @@ header {
 	text-align: center;
 	width: 100%;
 	position: relative;
-	height: 93vh;
+	height: 100vh;
     animation: bgimage 10s ease-in-out infinite alternate;
     background: rgba(255,255,255,0.4);
 }
@@ -37,24 +37,26 @@ header {
 
 h1 {
     background-color: white;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: 700;
+    margin: 0;
 }
 
-div.ion-chevron-down {
-    font-size: 1.5em;
+div.scroll_down {
+    font-size: 4em;
+    font-weight: 700;
     bottom: 0px;
     position: absolute;
     left: 0px;
     right: 0px;
 }
 
-.ion-chevron-down:before {
+.scroll_down:before {
     display: block !important;
     margin: -36px;
 }
 
-div.ion-chevron-down {
+div.scroll_down {
   animation: bouncetext .6s cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite alternate;
   animation-delay: 0;
 }

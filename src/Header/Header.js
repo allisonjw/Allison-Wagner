@@ -8,7 +8,7 @@ export const Header = () => {
             <h1>
                 Allison Wagner || Software Engineer 
             </h1>
-            <div class="ion-chevron-down">
+            <div class="scroll_down">
             <h3>scroll down</h3>
             <FaChevronDown />
             </div>
