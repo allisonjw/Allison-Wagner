@@ -1,8 +1,33 @@
+.about_container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4%;
+}
+
 .about_section {
     display: flex;
+    flex-direction: column;
+    width: 55%;
 } 
 
-.about_h3 {
+.about_h2 {
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.about_h3,
+.about_skills {
     font-size: 1.7em;
     font-weight: 700;
+    margin: 2%;
+}
+
+.about_skills {
+    text-decoration: underline;
+}
+
+.aside_skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
