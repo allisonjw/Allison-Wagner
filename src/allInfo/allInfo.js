@@ -65,7 +65,7 @@ export const contactInfo = {
     linkedIn: "https://www.linkedin.com/in/allisonjwagner/",
     resume:
       "https://alumni.turing.io/sites/default/files/resumes/Allison_wagner_resume.pdf",
-    email: "mailto:allisonjw01@gmail.com",
+    email: "allisonjw01@gmail.com",
     image: "",
     skills: [
       "JavaScript",
