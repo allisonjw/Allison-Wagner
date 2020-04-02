@@ -5,7 +5,7 @@ import { Contact } from "./Contact/Contact";
 import { Header } from "./Header/Header";
 import { Projects } from "./Projects/Projects";
 // import {  } from "./apiCalls";
-import { allProjects, contactInfo } from "./allInfo/allInfo";
+import { allProjects } from "./allInfo/allInfo";
 
 function App() {
   return (
