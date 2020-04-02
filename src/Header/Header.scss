@@ -1,0 +1,24 @@
+i.ion-chevron-down {
+    color: rgba(27, 27, 27, 0.5);
+    font-size: 16px;
+    bottom: 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+.ion-chevron-down:before {
+    display: block !important;
+    margin: -36px;
+}
+
+i.ion-chevron-down {
+  animation: bouncetext .6s cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite alternate;
+  animation-delay: 0;
+}
+@keyframes bouncetext {
+  0%{transform: translateY(0px);}
+  100% {transform: translateY(-25px);}
+} 
