@@ -23,7 +23,7 @@ export const allProjects = [
         description:
         "This was solo project that we had 5 days to complete. Harry Potter Game is a web based application that allows Wizards and Witches to view characters based on their houses. Additionally you will be able to select/deselect favorite characters and view your favorite collection. You can also view all spells. An additional iteration will be a matching game to match the spell name and the effect.",
         gitHub: "https://github.com/allisonjw/Harry_Potter",
-        live: "",
+        live: "http://harry_potter_ww.surge.sh/",
         image: "../../public/images/harry_potter.png"
     },
     {
@@ -50,7 +50,7 @@ export const allProjects = [
         description:
         "A 3 member group project that was completed in 9 days. This is a movie rating application that allows users to login and view movies. The user is also allowed to post and remove ratings to the API we are fetching from.",
         gitHub: "https://github.com/allisonjw/rancid-tomatillos",
-        live: "",
+        live: "http://rancid-tomatillos.surge.sh/",
         image: "../../public/images/rancid.png"
     }
 ];
