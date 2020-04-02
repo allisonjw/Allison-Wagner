@@ -1,12 +1,17 @@
 import React from "react";
 import "./Header.scss";
+import { FaChevronDown } from 'react-icons/fa';
 
 export const Header = () => {
     return (
-        <section className="header_section">
-            <h3 className="header_h3">
+        <header>
+            <h1>
                 Allison Wagner || Software Engineer 
-            </h3>
-        </section>
+            </h1>
+            <div class="scroll_down">
+            <h3>scroll down</h3>
+            <FaChevronDown />
+            </div>
+        </header>
     )
 }
