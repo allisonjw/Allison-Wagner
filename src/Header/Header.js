@@ -3,10 +3,11 @@ import "./Header.scss";
 
 export const Header = () => {
     return (
-        <section className="header_section">
+        <header>
             <h3 className="header_h3">
                 Allison Wagner || Software Engineer 
             </h3>
-        </section>
+            <i class="ion-chevron-down">scroll down</i>
+        </header>
     )
 }
