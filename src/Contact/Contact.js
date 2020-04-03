@@ -14,16 +14,19 @@ export const Contact = () => {
                 Contact Me
             </h2>
                 <h3 className="contact_h3">Email: 
-                <a href={email}>Email</a>
+                <a href={email}>allisonjw01@gmail.com</a>
                 <span className="contact_icons"><AiOutlineMail /></span>
                 </h3>
-                <h3 className="contact_h3">GitHub: {gitHub}
+                <h3 className="contact_h3">GitHub: 
+                <a href={gitHub}>github.com/allisonjw</a>
                 <FaGithub />
                 </h3>
-                <h3 className="contact_h3">Resume: {linkedIn}
+                <h3 className="contact_h3">Resume: 
+                <a href={resume}>Allison_wagner_resume.pdf</a>
                 <TiDocumentText />
                 </h3>
-                <h3 className="contact_h3">LinkedIn: {resume}
+                <h3 className="contact_h3">LinkedIn: 
+                <a href={linkedIn}>github.com/allisonjw</a>
                 <FaLinkedinIn />
                 </h3>
         </section>

@@ -1,5 +1,5 @@
 .contact_h2 {
-    font-size: 2em;
+    font-size: 3em;
     text-decoration: underline;
 }
 
@@ -17,8 +17,13 @@
 
 a {
     color: blue;
+    margin: 4px;
 }
 
 .contact_icons {
     margin-top: 3px;
+}
+
+.about_headshot {
+    width: 50px;
 }
