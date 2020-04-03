@@ -6,8 +6,8 @@ import { MdLaunch } from "react-icons/md";
 export const Projects = ({ project }) => {
     const { title, description, gitHub, live, image } = project;
 
-    console.log('img', image)
-
+    // console.log('img', image)
+    // console.log('project', project.image)
     return (
         <section className="projects_section">
             <article className="description_container">
@@ -19,14 +19,12 @@ export const Projects = ({ project }) => {
                 </p>
                 <aside className="icon_container">
                 {gitHub && (
-                    <a href={gitHub}
-                     target="_blank">
+                    <a href={gitHub}>
                     <FaGithub className="icon_link"/>
                     </a>
                 )}
                 {live && (
-                    <a href={live} 
-                      target="_blank">
+                    <a href={live}> 
                     <MdLaunch className="icon_link"/>
                     </a>
                 )}
@@ -34,10 +32,11 @@ export const Projects = ({ project }) => {
             </article>
             <article className="image_container">
                 <img 
-                className="image" 
-                src={require(`${image}`)}
-                // src={require("../images/rancid.png")} 
-                alt="Project" />
+                className="image"
+                // src={require(project.image)} 
+                // src={require(`${image}`)}
+                src={require("../images/rancid.png")} 
+                alt="Project Information" />
             </article>
         </section>
     )
