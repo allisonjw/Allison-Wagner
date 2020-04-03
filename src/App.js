@@ -19,8 +19,24 @@ function App() {
           <Contact />
         </Fade>
         <Fade bottom>
-          <Projects />
+          <Projects project={allProjects[0]}/>
         </Fade>
+        <Fade bottom>
+          <Projects project={allProjects[1]}/>
+        </Fade>
+        <Fade bottom>
+          <Projects project={allProjects[2]}/>
+        </Fade>
+        <Fade bottom>
+          <Projects project={allProjects[3]}/>
+        </Fade>
+        <Fade bottom>
+          <Projects project={allProjects[4]}/>
+        </Fade>
+        <Fade bottom>
+          <Projects project={allProjects[5]}/>
+        </Fade>
+
     </main>
   );
 }
