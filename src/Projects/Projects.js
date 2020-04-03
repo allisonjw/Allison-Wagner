@@ -8,29 +8,34 @@ export const Projects = ({ project }) => {
 
     return (
         <section className="projects_section">
-      <article className="description_container">
-        <h3 className="title">
-          {title}
-        </h3>
-        <p className="description">
-          {description}
-        </p>
-        <aside className="icon_container">
-          {gitHub && (
-            <a href={gitHub} target="_blank">
-              <FaGithub />
-            </a>
-          )}
-          {live && (
-            <a href={live} target="_blank">
-              <MdLaunch />
-            </a>
-          )}
-        </aside>
-      </article>
-      <article className="image_container">
-        <img className="image" src={image} alt="Project" />
-      </article>
-    </section>
+            <article className="description_container">
+                <h3 className="project_title">
+                {title}
+                </h3>
+                <p className="project_description">
+                {description}
+                </p>
+                <aside className="icon_container">
+                {gitHub && (
+                    <a href={gitHub}
+                     target="_blank">
+                    <FaGithub className="icon_link"/>
+                    </a>
+                )}
+                {live && (
+                    <a href={live} 
+                      target="_blank">
+                    <MdLaunch className="icon_link"/>
+                    </a>
+                )}
+                </aside>
+            </article>
+            <article className="image_container">
+                <img 
+                className="image" 
+                src={require("../images/rancid.png")} 
+                alt="Project" />
+            </article>
+        </section>
     )
 }
