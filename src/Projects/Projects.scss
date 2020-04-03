@@ -1,0 +1,24 @@
+.projects_section {
+    // background-attachment: fixed;
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+//     url("../../backgrounds/background-light-grey.jpg");
+//   background-position: center;
+//   background-repeat: no-repeat;
+  display: flex;
+  margin-bottom: 120px;
+  width: auto;
+  justify-content: center;
+}
+
+.description_container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 350px;
+}
+
+.image_container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
