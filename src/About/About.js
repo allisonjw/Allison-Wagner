@@ -25,7 +25,7 @@ export const About = () => {
                 <h3 className="about_h3">{description}</h3>
             </section>
             <aside className="aside_skills">
-                <h3 className="about_skills">Skills:</h3>
+                <h3 className="about_skills">Skills</h3>
                 {skillsList()}
             </aside>
         </div>

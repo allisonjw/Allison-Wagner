@@ -3,10 +3,10 @@
 .about_container {
     display: flex;
     justify-content: space-evenly;
-    background-image: linear-gradient(rgba(255, 252, 252, 0.5), rgba(255, 254, 254, 0.5)), url("../images/headshot.jpg");
+    background-image: linear-gradient(rgba(255, 252, 252, 0.24), rgba(255, 254, 254, 0.25)), url("../images/headshot.jpg");
     background-attachment: scroll;
-    background-size: contain;
-    background-repeat: space;
+    background-size: 300px;
+    background-repeat: no-repeat;
 }
 
 .about_section {
@@ -22,7 +22,7 @@
 
 .about_h3,
 .about_skills {
-    font-size: 1.9em;
+    font-size: 2em;
     font-weight: 700;
     margin: 2%;
 }
@@ -40,7 +40,7 @@
 }
 
 .about_skill {
-    font-size: 1.7em;
-    font-weight: 300;
+    font-size: 1.9em;
+    font-weight: 700;
     margin: 1%;
 }
