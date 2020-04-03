@@ -5,9 +5,7 @@ import { MdLaunch } from "react-icons/md";
 
 export const Projects = ({ project }) => {
     const { title, description, gitHub, live, image } = project;
-
-    // console.log('img', image)
-    // console.log('project', project.image)
+    
     return (
         <section className="projects_section">
             <article className="description_container">
@@ -33,9 +31,7 @@ export const Projects = ({ project }) => {
             <article className="image_container">
                 <img 
                 className="image"
-                // src={require(project.image)} 
-                // src={require(`${image}`)}
-                src={require("../images/rancid.png")} 
+                src={image}
                 alt="Project Information" />
             </article>
         </section>
