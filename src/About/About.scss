@@ -3,16 +3,19 @@
 .about_container {
     display: flex;
     justify-content: space-evenly;
-    background-image: linear-gradient(rgba(255, 252, 252, 0.24), rgba(255, 254, 254, 0.25)), url("../images/headshot.jpg");
-    background-attachment: scroll;
-    background-size: 300px;
-    background-repeat: no-repeat;
+}
+
+.about_photo {
+    border-radius: 250px;
+    width: 500px;
+    height: 300px;
+    margin-top: 68px;
 }
 
 .about_section {
     display: flex;
     flex-direction: column;
-    width: 55%;
+    // width: 55%;
 } 
 
 .about_h2 {
