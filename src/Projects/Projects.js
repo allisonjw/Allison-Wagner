@@ -7,6 +7,7 @@ export const Projects = ({ project }) => {
     const { title, description, gitHub, live, image } = project;
     
     return (
+        <div className="project_container">
         <section className="projects_section">
             <article className="description_container">
                 <h3 className="project_title">
@@ -35,5 +36,6 @@ export const Projects = ({ project }) => {
                 alt="Project Information" />
             </article>
         </section>
+        </div>
     )
 }

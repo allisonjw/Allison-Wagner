@@ -1,14 +1,27 @@
+.project_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .projects_section {
     background-attachment: fixed;
-  background-image: linear-gradient(rgba(212, 210, 210, 0.59), rgba(189, 186, 186, 0.58)),
-    url("../images/grey_slate_image.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  margin-bottom: 7%;
-  width: auto;
-  justify-content: center;
-  border-radius: 10px;
+    background-image: linear-gradient(rgba(212, 210, 210, 0.59), rgba(189, 186, 186, 0.58)),
+        url("../images/grey_slate_image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 7%;
+    width: 90%;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.projects_heading {
+    font-size: 3.5em;
+    text-decoration: underline;
+    margin-bottom: 2%;
 }
 
 .description_container {
@@ -38,7 +51,8 @@
 }
 
 .image {
-    width: 550px;
+    max-width: 550px;
+    max-height: 550px;
 }
 
 .icon_link {
