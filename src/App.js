@@ -20,6 +20,7 @@ function App() {
           <Contact />
         </Fade>
         <Fade right>
+        <h2 className="projects_heading">My Work</h2>
           <Projects project={allProjects[0]}/>
         </Fade>
         <Fade left>
