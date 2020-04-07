@@ -19,26 +19,14 @@ function App() {
         <Fade bottom>
           <Contact />
         </Fade>
-        <Fade right>
         <h2 className="projects_heading">My Work</h2>
+        <Fade bottom>
           <Projects project={allProjects[0]}/>
-        </Fade>
-        <Fade left>
           <Projects project={allProjects[1]}/>
-        </Fade>
-        <Fade right>
           <Projects project={allProjects[2]}/>
-        </Fade>
-        <Fade left>
           <Projects project={allProjects[3]}/>
-        </Fade>
-        <Fade right>
           <Projects project={allProjects[4]}/>
         </Fade>
-        <Fade left>
-          <Projects project={allProjects[5]}/>
-        </Fade>
-
     </main>
   );
 }
