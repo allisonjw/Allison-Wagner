@@ -7,6 +7,7 @@ import { Projects } from "./Projects/Projects";
 // import {  } from "./apiCalls";
 import { allProjects } from "./allInfo/allInfo";
 import Fade from 'react-reveal/Fade';
+// import Slide from 'react-reveal/Slide';
 
 function App() {
   return (
@@ -18,25 +19,14 @@ function App() {
         <Fade bottom>
           <Contact />
         </Fade>
+        <h2 className="projects_heading">My Work</h2>
         <Fade bottom>
           <Projects project={allProjects[0]}/>
-        </Fade>
-        <Fade bottom>
           <Projects project={allProjects[1]}/>
-        </Fade>
-        <Fade bottom>
           <Projects project={allProjects[2]}/>
-        </Fade>
-        <Fade bottom>
           <Projects project={allProjects[3]}/>
-        </Fade>
-        <Fade bottom>
           <Projects project={allProjects[4]}/>
         </Fade>
-        <Fade bottom>
-          <Projects project={allProjects[5]}/>
-        </Fade>
-
     </main>
   );
 }

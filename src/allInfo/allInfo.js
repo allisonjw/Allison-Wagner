@@ -42,7 +42,7 @@ export const allProjects = [
         "This was a solo project that I had 7 days to complete. What's New is an application designed to display your current news. This application was built with create-react-app and is my first app using with the React framework.",
         gitHub: "https://github.com/allisonjw/whats-new",
         live: "https://allisonjw.github.io/whats-new/",
-        image: "./assets/whats_new.png"
+        image: "./assets/whats-new_screenshot.png"
     },
     {
         id: 6,
@@ -66,6 +66,7 @@ export const contactInfo = {
     resume:
       "https://alumni.turing.io/sites/default/files/resumes/Allison_wagner_resume.pdf",
     email: "allisonjw01@gmail.com",
+    image: "./assets/headshot.jpg",
     skills: [
       "JavaScript",
       "React.js/Svelte.js/React Native",
