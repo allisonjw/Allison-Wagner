@@ -12,10 +12,11 @@
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    margin-bottom: 7%;
+    margin-bottom: 8%;
     width: 90%;
     justify-content: center;
     border-radius: 10px;
+    box-shadow: 9px 15px 9px #000000a3;
 }
 
 .projects_heading {
@@ -47,15 +48,21 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 3%;
+    margin-right: 3%;
 }
 
 .image {
-    max-width: 550px;
-    max-height: 550px;
+    max-width: 470px;
+    max-height: 470px;
+    box-shadow: 11px 11px 9px #000000a1;
 }
 
 .icon_link {
     height: 3em;
     width: 3em;
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all .4s ease-in-out;
+      }
 }
