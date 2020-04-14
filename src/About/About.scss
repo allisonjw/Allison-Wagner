@@ -4,14 +4,17 @@
 .about_container {
     display: flex;
     justify-content: space-evenly;
+    @include md {
+        flex-wrap: wrap;
+    }
     @include sm {
         font-size: 3em;
         flex-wrap: wrap;
-      }
-      @include xs {
+    }
+    @include xs {
         font-size: 1.5em;
         flex-wrap: wrap;
-      }  
+    }  
 }
 
 .about_photo {
@@ -37,10 +40,10 @@
     text-decoration: underline;
     @include sm {
         font-size: 1.5em;
-      }
-      @include xs {
+    }
+    @include xs {
         font-size: 1.7em;
-      }  
+    }  
 }
 
 .about_h3,
@@ -50,10 +53,10 @@
     margin: 2%;
     @include sm {
         font-size: 1em;
-      }
-      @include xs {
+    }
+    @include xs {
         font-size: 1em;
-      }  
+    }  
 }
 
 .about_h4 {
@@ -62,10 +65,10 @@
     margin: 2%;
     @include sm {
         font-size: .8em;
-      }
-      @include xs {
+    }
+    @include xs {
         font-size: 1em;
-      }  
+    }  
 
 }
 
@@ -87,8 +90,8 @@
     margin: 1%;
     @include sm {
         font-size: .8em;
-      }
-      @include xs {
+    }
+    @include xs {
         font-size: 1em;
-      }
+    }
 }
