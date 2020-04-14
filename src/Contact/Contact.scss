@@ -1,7 +1,15 @@
+@import '../media-queries';
+
 .contact_h2 {
     font-size: 3.5em;
     text-decoration: underline;
     margin-bottom: 2%;
+    @include sm {
+        font-size: 2.2em;
+    }
+    @include xs {
+        font-size: 2em;
+    }
 }
 
 .contact_section {
@@ -11,6 +19,12 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: space;
+    @include sm {
+        background-size: auto;
+    }
+    @include xs {
+        background-size: auto;
+    }
 }
 
 .contact_h3 {
@@ -20,6 +34,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @include xs {
+        font-size: 1.7em;
+    }
 }
 
 a {
@@ -34,8 +51,4 @@ a {
 
 .contact_icons {
     margin-top: 3px;
-}
-
-.about_headshot {
-    width: 50px;
 }
