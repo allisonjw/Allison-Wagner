@@ -1,3 +1,5 @@
+@import '../media-queries';
+
 header {
 	text-align: center;
 	width: 100%;
@@ -14,6 +16,12 @@ h1 {
     font-size: 5em;
     font-weight: 700;
     margin: 0;
+    @include sm {
+      font-size: 3em;
+    }
+    @include xs {
+      font-size: 1.5em;
+    }
 }
 
 div.scroll_down {
@@ -23,6 +31,12 @@ div.scroll_down {
     position: absolute;
     left: 0px;
     right: 0px;
+    @include sm {
+      font-size: 3em;
+    }
+    @include xs {
+      font-size: 1.5em;
+    }
 }
 
 .scroll_down:before {
@@ -43,4 +57,12 @@ div.scroll_down {
 .header_arrow {
   height: 2em;
   width: 2em;
+  @include sm {
+    height: 1.4em;
+    width: 1.4em;
+    }
+  @include xs {
+    height: 1em;
+    width: 1em;
+    }
 }
