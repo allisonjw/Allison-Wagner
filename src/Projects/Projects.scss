@@ -60,6 +60,10 @@
     font-weight: 700;
     text-decoration: underline;
     margin: 3%;
+    @include xs {
+        margin: 0;
+        font-size: 2em;
+    }
 }
 
 .project_description {
@@ -67,6 +71,7 @@
     font-weight: 700;
     @include xs {
         font-size: 1.5em;
+        margin: 2% 0;
     }
 }
 
@@ -93,6 +98,7 @@
         max-height: 400px;
     }
     @include xs {
+        margin-top: 1%;
         max-width: 250px;
         max-height: 250px;
     }
