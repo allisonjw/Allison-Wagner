@@ -1,4 +1,12 @@
 export const allProjects = [
+     {
+        id: 8,
+        title: "Ballroom Beats",
+        description:
+        "Ballroom Beats took 3rd place out of the whole school in Turing's Demo Night Competition. This was a combined backend and frontend group project. Ballroom Beats is a React-Native app that allows users to choose the steps to a dance they would like to learn along with the song of choice. This app allows you to select from three types of popular ballroom dances (Waltz, Salsa, and Bachata) and practice the step sequences on your phone, with your hands.  The goal of this app is to help the brain remember the rhythms and sequences necessary to perform the dance.",
+        gitHub: "https://github.com/allisonjw/Ballroom-Beats-UI",
+        image: "./assets/ezgif.com-video-to-gif.gif"
+    },
     {
         id: 1,
         title: "Palette Picker",
