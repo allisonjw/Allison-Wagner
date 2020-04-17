@@ -21,9 +21,11 @@
     background-repeat: space;
     @include sm {
         background-size: auto;
+        background-repeat: no-repeat;
     }
     @include xs {
         background-size: auto;
+        background-repeat: no-repeat;
     }
 }
 
