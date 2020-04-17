@@ -87,6 +87,7 @@
     max-width: 470px;
     max-height: 470px;
     box-shadow: 11px 11px 9px #000000a1;
+    border-radius: 10px;
     @include sm {
         max-width: 385px;
         max-height: 400px;
