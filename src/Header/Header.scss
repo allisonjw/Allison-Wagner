@@ -9,13 +9,18 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  @include xs {
+    height: 90vh;
+    background-size: cover;
+    background-attachment: inherit;
+  }
 }
 
 h1 {
     background-color: white;
     font-size: 5em;
     font-weight: 700;
-    margin: 0;
+    margin: 4% 0 0;
     @include sm {
       font-size: 3em;
     }
@@ -36,6 +41,7 @@ div.scroll_down {
     }
     @include xs {
       font-size: 1.5em;
+      bottom: 60px;
     }
 }
 
