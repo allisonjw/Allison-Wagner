@@ -26,15 +26,15 @@ export const allProjects = [
         live: "http://harry_potter_ww.surge.sh/",
         image: "./assets/harry_potter.png"
     },
-    {
-        id: 4,
-        title: "Star Wars Trivia",
-        description:
-        "Tantive is a Star Wars fan site, where a user can view and favorite characters from each Star Wars movie that exists. Tantive IV was Princess Leia Organa battleship. This was a week long group project intended for us to get a deeper understanding of how React works, learn how to use React-Router, and become better at testing and fetching with React.",
-        gitHub: "https://github.com/allisonjw/tantive-star-wars",
-        live: "https://tantive-star-wars.herokuapp.com/",
-        image: "./assets/swapi_trivia.png"
-    },
+    // {
+    //     id: 4,
+    //     title: "Star Wars Trivia",
+    //     description:
+    //     "Tantive is a Star Wars fan site, where a user can view and favorite characters from each Star Wars movie that exists. Tantive IV was Princess Leia Organa battleship. This was a week long group project intended for us to get a deeper understanding of how React works, learn how to use React-Router, and become better at testing and fetching with React.",
+    //     gitHub: "https://github.com/allisonjw/tantive-star-wars",
+    //     live: "https://tantive-star-wars.herokuapp.com/",
+    //     image: "./assets/swapi_trivia.png"
+    // },
     {
         id: 5,
         title: "What's New",
