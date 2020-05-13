@@ -43,14 +43,10 @@
 
 a {
     color: blue;
-    margin: 10px;
+    margin: 10px 0 0 10px;
       &:hover {
         cursor: pointer;
         transform: scale(1.1);
         transition: all .4s ease-in-out;
       }
-}
-
-.contact_icons {
-    margin-top: 3px;
 }

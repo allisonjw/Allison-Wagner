@@ -13,25 +13,33 @@ export const Contact = () => {
             <h2 className="contact_h2">
                 Contact Me
             </h2>
-                <h3 className="contact_h3">Email: 
-                  <a href={email}>allisonjw01@gmail.com</a>
-                    <AiOutlineMail 
-                    className="contact_icons"/>
+                <h3 className="contact_h3">Email 
+                  <a href={email} 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                    <AiOutlineMail />
+                  </a>
                 </h3>
-                <h3 className="contact_h3">GitHub: 
-                  <a href={gitHub}>github.com/allisonjw</a>
-                    <FaGithub 
-                    className="contact_icons"/>
+                <h3 className="contact_h3">GitHub 
+                  <a href={gitHub}
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                    <FaGithub />
+                  </a>
                 </h3>
-                <h3 className="contact_h3">Resume: 
-                  <a href={resume}>Allison_wagner_resume.pdf</a>
-                    <TiDocumentText 
-                    className="contact_icons"/>
+                <h3 className="contact_h3">Resume 
+                  <a href={resume}
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                    <TiDocumentText />
+                  </a>
                 </h3>
-                <h3 className="contact_h3">LinkedIn: 
-                  <a href={linkedIn}>github.com/allisonjw</a>
-                    <FaLinkedinIn 
-                    className="contact_icons"/>
+                <h3 className="contact_h3">LinkedIn 
+                  <a href={linkedIn}
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                    <FaLinkedinIn />
+                  </a>
                 </h3>
         </section>
     )

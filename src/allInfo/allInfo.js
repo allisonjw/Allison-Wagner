@@ -72,8 +72,8 @@ export const contactInfo = {
     gitHub: "https://github.com/allisonjw",
     linkedIn: "https://www.linkedin.com/in/allisonjwagner/",
     resume:
-      "https://alumni.turing.io/sites/default/files/resumes/Allison_wagner_resume.pdf",
-    email: "allisonjw01@gmail.com",
+      "https://alumni.turing.io/sites/default/files/resumes/Allison%20Wagner_resume.pdf",
+    email: "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=allisonjw01@gmail.com",
     image: "./assets/headshot.jpg",
     skills: [
       "JavaScript",
