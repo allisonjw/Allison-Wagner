@@ -1,5 +1,14 @@
 export const allProjects = [
      {
+        id: 9,
+        title: "Ridgecreek Plumbing & Gas",
+        description:
+        "This website was built during a paid contract position as a Website Developer. Working closely with the customer, I designed and built the site from scratch. The site was built using React, HTML5, SCSS and tested with Jest and Enzyme.",
+        gitHub: "https://github.com/allisonjw/Ridge-Creek-Plumbing",
+        live: "https://ridge-creek-plumbing.vercel.app/",
+        image: "./assets/ridgecreek.png"
+     },
+     {
         id: 8,
         title: "Ballroom Beats",
         description:
