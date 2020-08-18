@@ -110,6 +110,7 @@
     font-size: 3em;
       &:hover {
         cursor: pointer;
+        color: green;
         transform: scale(1.1);
         transition: all .4s ease-in-out;
       }
