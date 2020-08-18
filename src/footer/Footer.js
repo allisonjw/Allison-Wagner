@@ -1,50 +1,46 @@
 import React from "react";
-import "./Contact.scss";
+import "./Footer.scss";
 import { contactInfo } from "../allInfo/allInfo";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail, AiOutlineCopyright } from "react-icons/ai";
 import { TiDocumentText } from "react-icons/ti";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaRegCopyright } from "react-icons/fa";
 
 const { email, gitHub, linkedIn, resume } = contactInfo;
 
-export const Contact = () => {
+export const Footer = () => {
     return (
-        <section className="contact_section">
-            <h2 className="contact_h2">
-                Contact Me
-            </h2>
-                <h3 className="contact_h3">Email 
+        <footer>
+            <section className="footer_socialMedia-links">
                   <a href={email} 
-                    className="contact_link"
+                    className="footer_socialMedia-img"  
+                    aria-label="link to email"
                     target="_blank" 
                     rel="noopener noreferrer">
                     <AiOutlineMail />
                   </a>
-                </h3>
-                <h3 className="contact_h3">GitHub 
                   <a href={gitHub}
-                    className="contact_link"
+                    className="footer_socialMedia-img"  
+                    aria-label="link to GitHub"
                     target="_blank" 
                     rel="noopener noreferrer">
                     <FaGithub />
                   </a>
-                </h3>
-                <h3 className="contact_h3">Resume 
                   <a href={resume}
-                    className="contact_link"
+                    className="footer_socialMedia-img"  
+                    aria-label="link to resume"                  
                     target="_blank" 
                     rel="noopener noreferrer">
                     <TiDocumentText />
                   </a>
-                </h3>
-                <h3 className="contact_h3">LinkedIn 
                   <a href={linkedIn}
-                    className="contact_link"
+                    className="footer_socialMedia-img"  
+                    aria-label="link to linkedIn"                  
                     target="_blank" 
                     rel="noopener noreferrer">
                     <FaLinkedinIn />
                   </a>
-                </h3>
-        </section>
+            </section>
+            <p className="footer_copyright">copyright <AiOutlineCopyright className="copyright_icon" /> Allison Wagner 2020</p>
+        </footer>
     )
 }
