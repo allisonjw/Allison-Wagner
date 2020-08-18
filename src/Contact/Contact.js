@@ -15,6 +15,7 @@ export const Contact = () => {
             </h2>
                 <h3 className="contact_h3">Email 
                   <a href={email} 
+                    className="contact_link"
                     target="_blank" 
                     rel="noopener noreferrer">
                     <AiOutlineMail />
@@ -22,6 +23,7 @@ export const Contact = () => {
                 </h3>
                 <h3 className="contact_h3">GitHub 
                   <a href={gitHub}
+                    className="contact_link"
                     target="_blank" 
                     rel="noopener noreferrer">
                     <FaGithub />
@@ -29,6 +31,7 @@ export const Contact = () => {
                 </h3>
                 <h3 className="contact_h3">Resume 
                   <a href={resume}
+                    className="contact_link"
                     target="_blank" 
                     rel="noopener noreferrer">
                     <TiDocumentText />
@@ -36,6 +39,7 @@ export const Contact = () => {
                 </h3>
                 <h3 className="contact_h3">LinkedIn 
                   <a href={linkedIn}
+                    className="contact_link"
                     target="_blank" 
                     rel="noopener noreferrer">
                     <FaLinkedinIn />

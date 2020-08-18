@@ -18,15 +18,15 @@ export const Projects = ({ project }) => {
               </p>
             <aside className="icon_container">
             {gitHub && (
-              <a href={gitHub}>
-                <FaGithub 
-                className="icon_link"/>
+              <a href={gitHub}
+              className="icon_link">
+                <FaGithub />
               </a>
             )}
             {live && (
-              <a href={live}> 
-                <MdLaunch 
-                className="icon_link"/>
+              <a href={live}
+              className="icon_link"> 
+                <MdLaunch />
               </a>
             )}
             </aside>
