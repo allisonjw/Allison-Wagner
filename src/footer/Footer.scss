@@ -1,0 +1,36 @@
+@import '../media-queries';
+
+footer {
+    background-color: grey;
+    padding: 3% 0;
+    display: block;
+}
+
+.footer_socialMedia-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_socialMedia-img {
+    font-size: 3em;
+    margin: 0 1%;
+    @include xl {
+        font-size: 3.5em;
+    }
+    @include lg {
+        font-size: 2.5em;
+    }
+    @include md {
+        font-size: 2em;
+    }
+    @include sm {
+        font-size: 1em;
+    }
+    @include xs {
+        font-size: 0.8em;
+    }
+    &:hover {
+        cursor: pointer;
+        color: green;
+    }
+}
