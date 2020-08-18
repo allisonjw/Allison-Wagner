@@ -40,6 +40,7 @@ export const Footer = () => {
                     <FaLinkedinIn />
                   </a>
             </section>
+            <p className="footer_copyright">copyright Allison Wagner 2020</p>
         </footer>
     )
 }

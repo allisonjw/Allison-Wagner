@@ -1,14 +1,23 @@
 @import '../media-queries';
 
 footer {
-    background-color: grey;
-    padding: 3% 0;
-    display: block;
+    background-color: #575656fa;
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-evenly;
+    -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,.3);
+    box-shadow: 0 0 10px 3px rgba(0,0,0,.3);
 }
 
-.footer_socialMedia-links {
+.footer_socialMedia-links,
+.footer_copyright {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    width: 30%;
+    @include sm {
+        width: 25%;
+    }
 }
 
 .footer_socialMedia-img {
@@ -24,13 +33,31 @@ footer {
         font-size: 2em;
     }
     @include sm {
-        font-size: 1em;
+        font-size: 1.6em;
     }
     @include xs {
-        font-size: 0.8em;
+        font-size: 1.2em;
     }
     &:hover {
         cursor: pointer;
         color: green;
+        transform: scale(1.1);
+        transition: all .4s ease-in-out;
+    }
+}
+
+.footer_copyright {
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+    margin: 0;
+    @include md {
+        font-size: 1.6em;
+    }
+    @include sm {
+        font-size: 1.4em;
+    }
+    @include xs {
+        font-size: 1em;
     }
 }
