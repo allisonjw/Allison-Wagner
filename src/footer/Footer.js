@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.scss";
 import { contactInfo } from "../allInfo/allInfo";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail, AiOutlineCopyright } from "react-icons/ai";
 import { TiDocumentText } from "react-icons/ti";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaRegCopyright } from "react-icons/fa";
 
 const { email, gitHub, linkedIn, resume } = contactInfo;
 
@@ -40,7 +40,7 @@ export const Footer = () => {
                     <FaLinkedinIn />
                   </a>
             </section>
-            <p className="footer_copyright">copyright Allison Wagner 2020</p>
+            <p className="footer_copyright">copyright <AiOutlineCopyright className="copyright_icon" /> Allison Wagner 2020</p>
         </footer>
     )
 }

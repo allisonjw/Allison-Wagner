@@ -15,8 +15,14 @@ footer {
     flex-direction: row;
     align-items: center;
     width: 30%;
+    @include lg {
+        width: 50%;
+    }
+    @include md {
+        width: 45%;
+    }
     @include sm {
-        width: 25%;
+        width: 45%;
     }
 }
 
@@ -55,9 +61,23 @@ footer {
         font-size: 1.6em;
     }
     @include sm {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     @include xs {
+        font-size: 0.8em;
+    }
+}
+
+.copyright_icon {
+    margin: 3px;
+    font-size: 0.7em;
+    @include lg {
+        font-size: 0.8em;
+    }
+    @include md {
+        font-size: 0.85em;
+    }
+    @include sm {
         font-size: 1em;
     }
 }
