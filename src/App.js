@@ -4,7 +4,7 @@ import { About } from "./About/About";
 import { Contact } from "./Contact/Contact";
 import { Header } from "./Header/Header";
 import { Projects } from "./Projects/Projects";
-import { Footer } from "./Contact/Footer";
+import { Footer } from "./Footer/Footer";
 // import {  } from "./apiCalls";
 import { allProjects } from "./allInfo/allInfo";
 import Fade from 'react-reveal/Fade';
