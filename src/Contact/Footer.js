@@ -3,7 +3,7 @@ import "./Footer.scss";
 import { contactInfo } from "../allInfo/allInfo";
 import { AiOutlineMail, AiOutlineCopyright } from "react-icons/ai";
 import { TiDocumentText } from "react-icons/ti";
-import { FaGithub, FaLinkedinIn, FaRegCopyright } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const { email, gitHub, linkedIn, resume } = contactInfo;
 
