@@ -1,9 +1,9 @@
-import React from "./node_modules/react";
+import React from "react";
 import "./Footer.scss";
 import { contactInfo } from "../allInfo/allInfo";
-import { AiOutlineMail, AiOutlineCopyright } from "./node_modules/react-icons/ai";
-import { TiDocumentText } from "./node_modules/react-icons/ti";
-import { FaGithub, FaLinkedinIn, FaRegCopyright } from "./node_modules/react-icons/fa";
+import { AiOutlineMail, AiOutlineCopyright } from "react-icons/ai";
+import { TiDocumentText } from "react-icons/ti";
+import { FaGithub, FaLinkedinIn, FaRegCopyright } from "react-icons/fa";
 
 const { email, gitHub, linkedIn, resume } = contactInfo;
 
