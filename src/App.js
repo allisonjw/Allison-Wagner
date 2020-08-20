@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.scss";
+import { Navbar } from "./Navbar/Navbar";
 import { About } from "./About/About";
 import { Contact } from "./Contact/Contact";
 import { Header } from "./Header/Header";
@@ -14,6 +15,7 @@ function App() {
   return (
     <main className="App">
         <Header />
+        <Navbar />
         <Fade bottom>
           <About />
         </Fade>
