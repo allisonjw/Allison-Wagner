@@ -1,0 +1,24 @@
+@import '../media-queries';
+
+.navbar_list {
+    background-color: white;
+}
+
+.navbar_list-item {
+    text-decoration: none;
+    font-size: 2.2em;
+    font-weight: 700;
+    color: black;
+    margin-right: 2%;
+    @include sm {
+        font-size: 1.7em;
+    }
+      @include xs {
+        font-size: 1em;
+    }
+    &:hover {
+        cursor: pointer;
+        color: green;
+        text-decoration: underline;
+      }
+}

@@ -16,7 +16,7 @@ export const About = () => {
       };
     
     return (
-        <div className="about_container">
+        <div id="about" className="about_container">
           <img
             className="about_photo"
             src={image}

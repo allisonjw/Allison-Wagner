@@ -9,7 +9,7 @@ const { email, gitHub, linkedIn, resume } = contactInfo;
 
 export const Contact = () => {
     return (
-        <section className="contact_section">
+        <section id="contact" className="contact_section">
             <h2 className="contact_h2">
                 Contact Me
             </h2>
