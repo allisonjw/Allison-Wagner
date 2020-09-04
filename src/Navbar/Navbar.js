@@ -14,7 +14,7 @@ export const Navbar = () => {
                 </a>
                 <a href="#projects"
                   className="navbar_list-item">
-                      Projects
+                      My Work
                 </a>
         </nav>
     )
